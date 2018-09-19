@@ -1,0 +1,27 @@
+<script>
+
+     
+      operation=-1;
+        while(operation!=0)
+        {
+            var operation=prompt("which operation do you wish 1:add 2:sub 3:mul 4:div","");
+            var num1=parseInt(prompt("enter the value",""));
+            var num2=parseInt(prompt("enter the value",""));
+            
+            if(operation>0&&operation<5)
+            {
+                if(operation==1)alert("add of two number"+(num1+num2));
+                if(operation==2)alert("sub of two number"+(num1-num2));
+                if(operation==3)alert("mul of two number"+(num1*num2));
+                if(operation==4)alert("div of two number"+(num1/num2));
+            }
+            else
+            {
+                if(operation!=0)alert("that was not one of the option");
+            }
+        }
+
+
+
+
+</script>
