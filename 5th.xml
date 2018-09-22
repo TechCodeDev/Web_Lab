@@ -1,0 +1,64 @@
+[9:18 PM, 9/22/2018] Puneeth N: <!-- 5.xml -->
+<?xml-stylesheet type = "text/css" href = "6a.css" ?>
+<students>
+<VTU>
+<USN> 1CG17IS001 </USN>
+<name> vinay </name>
+<college> CIT </college>
+<branch> ISE</branch>
+<YOJ> 2017 </YOJ>
+<email> vinay@gmail.com </email>
+</VTU>
+<VTU>
+<USN> 1CG17IS002</USN>
+<name> mayan</name>
+<college> CIT </college>
+<branch> ISE </branch>
+<YOJ> 2017 </YOJ>
+<email> mayan @gmail.com </email>
+</VTU>
+<VTU>
+<USN>1CG17IS003 </USN>
+<name> sandhya </name>
+<college> CIT </college>
+<branch> ISE </branch>
+<YOJ> 2017</YOJ>
+<email> sandhya@yahoo.com </email>
+</VTU>
+</students>
+<!-- 5.css -->
+VTU {
+font-family: "lucida calligraphy", arial, 'sans serif';
+margin-left: 10pt;
+background-color:rgb(200,255,205);
+}
+USN {
+font-size: 85%;
+background-color:rgb(100,255,105);
+[9:18 PM, 9/22/2018] Puneeth N: }
+name {
+color:blue;
+font-size: 39pt;
+font-style: italic;
+font-weight: bold;
+}
+college {
+color:pink;
+font-size: 25pt;
+font-style: italic;
+font-weight: bold;
+}
+branch {
+color:red;
+font-size: 32pt;
+font-style: italic;
+}
+YOJ {
+padding: 0.5cm;
+}
+email{
+color:green;
+font-size: 25pt;
+font-style: italic;
+font-weight: bold;
+}
